@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello LOVE!</title>
+        <link rel="stylesheet" href="./promise_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+        <style>
+            .love-button {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                padding: 10px 20px;
+                font-size: 1.2em;
+                color: #fff;
+                background: linear-gradient(145deg, #ff7a68, #ff4a39);
+                border: none;
+                border-radius: 10px;
+                box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), -3px -3px 10px rgba(255, 255, 255, 0.2);
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .love-button:hover {
+                background: linear-gradient(145deg, #ff4a39, #ff7a68);
+                transform: scale(1.1);
+                box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4), -5px -5px 15px rgba(255, 255, 255, 0.3);
+            }
+        </style>
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">&#127882;Yeeeyyyy!! &#127882;&#127882; </h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif"
+                     class="gif" alt="Cute animated illustration">
+            </div>
+        </div>
+        <button class="love-button" onclick="goToLove()">LOVE</button>
+        <script>
+            function goToLove() {
+                window.location.href = "love.html";
+            }
+        </script>
+    </body> 
+</html>

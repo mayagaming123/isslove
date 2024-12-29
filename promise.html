@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello LOVE!</title>
+    <link rel="stylesheet" href="./promise_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <style>
+        .btn {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #ff6f61;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ff4a39;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div>
+        <h2 class="header_text">Will You Keep it Secret ..<br>&#129402; If YES then click OK&#128547;</h2>
+    </div>
+    <div class="gif_container">
+        <img
+                src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif"
+                class="gif" alt="Cute animated illustration">
+    </div>
+    <div class="buttons">
+        <button class="btn" id="okButton" onclick="goTofaith()">OK</button>
+    </div>
+</div>
+
+<script>
+    function goTofaith() {
+        window.location.href = "faith.html";
+    }
+</script>
+</body>
+</html>
