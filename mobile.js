@@ -93,7 +93,7 @@ heartPaper.addEventListener('touchend', () => {
   if (!heartPaper.dragged) {
     heartPaper.dragged = true;
     const button = document.createElement('button');
-    button.textContent = 'Click Me!';
+    button.textContent = 'SECRET!';
     button.className = 'center-button';
     document.body.appendChild(button);
 
