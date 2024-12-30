@@ -98,7 +98,7 @@ heartPaper.addEventListener('touchend', () => {
     document.body.appendChild(button);
 
     button.addEventListener('click', () => {
-      alert('Button clicked!');
+      window.location.href = 'promise.html';
     });
   }
 });
